@@ -1,0 +1,6 @@
+framework module FluentCodable {
+  umbrella header "FluentCodable-umbrella.h"
+
+  export *
+  module * { export * }
+}

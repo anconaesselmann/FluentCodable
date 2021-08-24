@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129C2721003531E213DAAD03D7C780FD /* Pods-FluentCodable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B956F74C7130D80F10F595D97CED520 /* Pods-FluentCodable_Tests-dummy.m */; };
+		16D158A00806F2907730350060A6B9AE /* Pods-FluentCodable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CBFA883C9661BCD2A0F532E3194A821 /* Pods-FluentCodable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		241425DEC7DA2B6B049B4A96D3EE04FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2BA36F5F38A922F6DB705515C9129D97 /* FluentCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89647A278FB3CFA787E7BD33A2FB20BD /* FluentCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569C7ADB30F45F9502A53F8077F8D005 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEAE4238259715FD36F86B1941083A5 /* ReplaceMe.swift */; };
+		6C447FE0C7A8C3C73F62C24D7EB2CFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE5E9EBC35B08D530F200F68741A1098 /* FluentCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF06EE02E428FD7E54E5FD57D861B57 /* FluentCodable-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		982ECCE678FA6C8D854148F45A45380B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBDE3E917158D0D170480C11F5DD5F4;
+			remoteInfo = FluentCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BFA4A86A5170B82B61D079FC1D5EBF /* FluentCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FluentCodable.framework; path = FluentCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB445F3E101B47086B3B99FB7E07A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1308780B9CB64DA8995F278D54F8FF8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1CBFA883C9661BCD2A0F532E3194A821 /* Pods-FluentCodable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluentCodable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E5DB960124D597BD2DD517DE80C64A8 /* Pods-FluentCodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluentCodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		374623EDB842E5BDBEA52AE95CC21590 /* Pods-FluentCodable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FluentCodable_Tests-Info.plist"; sourceTree = "<group>"; };
+		3984D615D0C7FFA8D1ABEF3146A1B5C8 /* FluentCodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluentCodable.release.xcconfig; sourceTree = "<group>"; };
+		3B2BCB645EEF738B2F9422388BFD41B1 /* Pods-FluentCodable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluentCodable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B956F74C7130D80F10F595D97CED520 /* Pods-FluentCodable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FluentCodable_Tests-dummy.m"; sourceTree = "<group>"; };
+		71DC4D10AA499964719416A6F6FDFCBA /* Pods-FluentCodable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FluentCodable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CB71B0DD972D85F462EF19D34B55566 /* Pods-FluentCodable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FluentCodable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89647A278FB3CFA787E7BD33A2FB20BD /* FluentCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentCodable-umbrella.h"; sourceTree = "<group>"; };
+		91AB8D55BDDCF546890806907DFF1D26 /* FluentCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FluentCodable-Info.plist"; sourceTree = "<group>"; };
+		9AF06EE02E428FD7E54E5FD57D861B57 /* FluentCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FluentCodable-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A71751F45760868C3A5C00E96FBE5453 /* Pods-FluentCodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluentCodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6F0A2A8E74925B06138B3977F04C61 /* FluentCodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluentCodable.debug.xcconfig; sourceTree = "<group>"; };
+		BAEAE4238259715FD36F86B1941083A5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FluentCodable/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BCF0998A3AE688BBD1F0B099098B58BC /* FluentCodable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FluentCodable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5882C70F10CE3DA97653A51A5CFDDDE /* FluentCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentCodable-prefix.pch"; sourceTree = "<group>"; };
+		D3D94918E0175AB6DD2D3A2C43AE2B8C /* Pods-FluentCodable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FluentCodable_Tests.modulemap"; sourceTree = "<group>"; };
+		DAC6605931D4F3BBC2F0DEE59E32993E /* Pods_FluentCodable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FluentCodable_Tests.framework; path = "Pods-FluentCodable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31CFD11A582CD490825FC55E26E317C /* FluentCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FluentCodable.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9265AE81CCFE3D4D19888C5045B9BB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C447FE0C7A8C3C73F62C24D7EB2CFD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC4994EF0F1FCC83CEFC7D48B6E548C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241425DEC7DA2B6B049B4A96D3EE04FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2429250A1C31B41F8C279135C1E5C67F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6BD6401DB86F76FD905C489DA3FE5B /* FluentCodable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DD77581CD8C8741A853B13221AF626F /* Pods-FluentCodable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D94918E0175AB6DD2D3A2C43AE2B8C /* Pods-FluentCodable_Tests.modulemap */,
+				7CB71B0DD972D85F462EF19D34B55566 /* Pods-FluentCodable_Tests-acknowledgements.markdown */,
+				71DC4D10AA499964719416A6F6FDFCBA /* Pods-FluentCodable_Tests-acknowledgements.plist */,
+				4B956F74C7130D80F10F595D97CED520 /* Pods-FluentCodable_Tests-dummy.m */,
+				3B2BCB645EEF738B2F9422388BFD41B1 /* Pods-FluentCodable_Tests-frameworks.sh */,
+				374623EDB842E5BDBEA52AE95CC21590 /* Pods-FluentCodable_Tests-Info.plist */,
+				1CBFA883C9661BCD2A0F532E3194A821 /* Pods-FluentCodable_Tests-umbrella.h */,
+				A71751F45760868C3A5C00E96FBE5453 /* Pods-FluentCodable_Tests.debug.xcconfig */,
+				2E5DB960124D597BD2DD517DE80C64A8 /* Pods-FluentCodable_Tests.release.xcconfig */,
+			);
+			name = "Pods-FluentCodable_Tests";
+			path = "Target Support Files/Pods-FluentCodable_Tests";
+			sourceTree = "<group>";
+		};
+		50C4BC8BDD6EE4F32817CA51D6221D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BFA4A86A5170B82B61D079FC1D5EBF /* FluentCodable.framework */,
+				DAC6605931D4F3BBC2F0DEE59E32993E /* Pods_FluentCodable_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5610228E9B8BB0AB1BB6F35E6D88F999 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD77581CD8C8741A853B13221AF626F /* Pods-FluentCodable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F6F9F90C15F3B7C3DF91A6F0AA49E2D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0998A3AE688BBD1F0B099098B58BC /* FluentCodable.podspec */,
+				1308780B9CB64DA8995F278D54F8FF8E /* LICENSE */,
+				11EB445F3E101B47086B3B99FB7E07A1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE6BD6401DB86F76FD905C489DA3FE5B /* FluentCodable */ = {
+			isa = PBXGroup;
+			children = (
+				BAEAE4238259715FD36F86B1941083A5 /* ReplaceMe.swift */,
+				9F6F9F90C15F3B7C3DF91A6F0AA49E2D /* Pod */,
+				BE3D631CE46DC9714150B682C0DAE133 /* Support Files */,
+			);
+			name = FluentCodable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE3D631CE46DC9714150B682C0DAE133 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31CFD11A582CD490825FC55E26E317C /* FluentCodable.modulemap */,
+				9AF06EE02E428FD7E54E5FD57D861B57 /* FluentCodable-dummy.m */,
+				91AB8D55BDDCF546890806907DFF1D26 /* FluentCodable-Info.plist */,
+				C5882C70F10CE3DA97653A51A5CFDDDE /* FluentCodable-prefix.pch */,
+				89647A278FB3CFA787E7BD33A2FB20BD /* FluentCodable-umbrella.h */,
+				AA6F0A2A8E74925B06138B3977F04C61 /* FluentCodable.debug.xcconfig */,
+				3984D615D0C7FFA8D1ABEF3146A1B5C8 /* FluentCodable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FluentCodable";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2429250A1C31B41F8C279135C1E5C67F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				50C4BC8BDD6EE4F32817CA51D6221D4C /* Products */,
+				5610228E9B8BB0AB1BB6F35E6D88F999 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0218A56ABC11ABF2418ED5B9FF647AB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D158A00806F2907730350060A6B9AE /* Pods-FluentCodable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA746B5C0A5494141D811BEC864E9C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA36F5F38A922F6DB705515C9129D97 /* FluentCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BAAA097C02E16EB7A9515255E51BAB3 /* Pods-FluentCodable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8553B577C0AA510D49473C0A78831E37 /* Build configuration list for PBXNativeTarget "Pods-FluentCodable_Tests" */;
+			buildPhases = (
+				0218A56ABC11ABF2418ED5B9FF647AB7 /* Headers */,
+				4AB3FC3AEC56DEC72E4EB56480ACFB58 /* Sources */,
+				9BC4994EF0F1FCC83CEFC7D48B6E548C /* Frameworks */,
+				9EF010F120D093624C03551DBB1966F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FE31C21D43AAB3E134CB57FEA2BF63A /* PBXTargetDependency */,
+			);
+			name = "Pods-FluentCodable_Tests";
+			productName = "Pods-FluentCodable_Tests";
+			productReference = DAC6605931D4F3BBC2F0DEE59E32993E /* Pods_FluentCodable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBBDE3E917158D0D170480C11F5DD5F4 /* FluentCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BE03AB8BC3B480783441CE2B92C23D /* Build configuration list for PBXNativeTarget "FluentCodable" */;
+			buildPhases = (
+				BBA746B5C0A5494141D811BEC864E9C3 /* Headers */,
+				E7A17E614C22E4F8A07B6E43FE06B63B /* Sources */,
+				9265AE81CCFE3D4D19888C5045B9BB35 /* Frameworks */,
+				1DF5EF0BC37805960E45D825C399C6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluentCodable;
+			productName = FluentCodable;
+			productReference = 08BFA4A86A5170B82B61D079FC1D5EBF /* FluentCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50C4BC8BDD6EE4F32817CA51D6221D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBDE3E917158D0D170480C11F5DD5F4 /* FluentCodable */,
+				1BAAA097C02E16EB7A9515255E51BAB3 /* Pods-FluentCodable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF5EF0BC37805960E45D825C399C6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF010F120D093624C03551DBB1966F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB3FC3AEC56DEC72E4EB56480ACFB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129C2721003531E213DAAD03D7C780FD /* Pods-FluentCodable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A17E614C22E4F8A07B6E43FE06B63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5E9EBC35B08D530F200F68741A1098 /* FluentCodable-dummy.m in Sources */,
+				569C7ADB30F45F9502A53F8077F8D005 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FE31C21D43AAB3E134CB57FEA2BF63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FluentCodable;
+			target = DBBDE3E917158D0D170480C11F5DD5F4 /* FluentCodable */;
+			targetProxy = 982ECCE678FA6C8D854148F45A45380B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FDED916BDE72F4BC28E5C4EEC4A4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3984D615D0C7FFA8D1ABEF3146A1B5C8 /* FluentCodable.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentCodable/FluentCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentCodable/FluentCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FluentCodable/FluentCodable.modulemap";
+				PRODUCT_MODULE_NAME = FluentCodable;
+				PRODUCT_NAME = FluentCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E51E7D569B2F5CD0CF20792EF9BE29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F0A2A8E74925B06138B3977F04C61 /* FluentCodable.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentCodable/FluentCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentCodable/FluentCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FluentCodable/FluentCodable.modulemap";
+				PRODUCT_MODULE_NAME = FluentCodable;
+				PRODUCT_NAME = FluentCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3F41B450AF4AC136914B4866DA1D2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71751F45760868C3A5C00E96FBE5453 /* Pods-FluentCodable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FluentCodable_Tests/Pods-FluentCodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FluentCodable_Tests/Pods-FluentCodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D41A52194C7B082828F81CBD664B9C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5DB960124D597BD2DD517DE80C64A8 /* Pods-FluentCodable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FluentCodable_Tests/Pods-FluentCodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FluentCodable_Tests/Pods-FluentCodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8553B577C0AA510D49473C0A78831E37 /* Build configuration list for PBXNativeTarget "Pods-FluentCodable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F41B450AF4AC136914B4866DA1D2E3 /* Debug */,
+				D41A52194C7B082828F81CBD664B9C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BE03AB8BC3B480783441CE2B92C23D /* Build configuration list for PBXNativeTarget "FluentCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E51E7D569B2F5CD0CF20792EF9BE29C /* Debug */,
+				6FDED916BDE72F4BC28E5C4EEC4A4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "FluentCodable",
+  "version": "0.1.0",
+  "summary": "A short description of FluentCodable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anconaesselmann/FluentCodable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anconaesselmann": "axel@anconaesselmann.com"
+  },
+  "source": {
+    "git": "https://github.com/anconaesselmann/FluentCodable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FluentCodable/Classes/**/*"
+}

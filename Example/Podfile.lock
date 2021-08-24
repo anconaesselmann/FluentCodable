@@ -1,0 +1,16 @@
+PODS:
+  - FluentCodable (0.1.0)
+
+DEPENDENCIES:
+  - FluentCodable (from `../`)
+
+EXTERNAL SOURCES:
+  FluentCodable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FluentCodable: 6c2e3dcef6c209aef7d153f87ee16a4a9c11f459
+
+PODFILE CHECKSUM: 14867c857e9f00f01b97140184d0af5ac998fda6
+
+COCOAPODS: 1.10.1
