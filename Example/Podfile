@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FluentCodable_Tests' do
+  pod 'FluentCodable', :path => '../'
+  
+  
+end
