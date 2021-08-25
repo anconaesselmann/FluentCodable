@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/FluentCodable.svg?style=flat)](https://cocoapods.org/pods/FluentCodable)
 [![Platform](https://img.shields.io/cocoapods/p/FluentCodable.svg?style=flat)](https://cocoapods.org/pods/FluentCodable)
 
+FluentCodable is a [Fluent Interface](https://en.wikipedia.org/wiki/Fluent_interface) for encoding and decoding Codable types.
+
 ## Example
 
 To run the example playground clone the repo, run `pod install` in the `Example` directory and open the `FluentCodableExample.xcworkspace` workspace. The `Example` playground (first element in the Project Navigator) contains all the examples from below.
@@ -27,6 +29,8 @@ Make sure your meme conforms to `Codable` (or `Encodable`/`Decodable` if you onl
 Memes on servers:
 
     let nyanCatJsonString = #"{"id":5,"title":"Nyan Cat","first_posted":"2011-04-05T12:00:01Z"}"#
+    
+Note: if those [hash marks](https://www.hackingwithswift.com/articles/162/how-to-use-raw-strings-in-swift) look funny to you, you are in luck! Your life just became a lot easier.
 
 Strings to memes:
 
