@@ -1,0 +1,6 @@
+framework module Pods_FluentCodableExample {
+  umbrella header "Pods-FluentCodableExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

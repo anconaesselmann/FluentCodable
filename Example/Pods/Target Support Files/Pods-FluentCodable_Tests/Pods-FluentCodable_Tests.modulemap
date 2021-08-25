@@ -1,6 +1,0 @@
-framework module Pods_FluentCodable_Tests {
-  umbrella header "Pods-FluentCodable_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

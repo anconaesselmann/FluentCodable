@@ -10,7 +10,7 @@ public extension Data {
     }
 
     enum Presets {
-        case none
+        case `default`
         case server
     }
 
@@ -46,29 +46,12 @@ public extension Data {
         }
     }
 
-    /**
-     Decodes a JSON string to the infered "Decoded".
-
-     An optional "preset" parameter can be passed in for controlling the decoding behaviour
-
-     - Parameters:
-        - presets: .server or .none: If no perset is passed into decoded() the .server preset
-            will be used. Property names get decoded from snake_case to camelCase and date-stings
-            are assumed to conform toISO 8601. Example date string: "2050-01-01T00:00:01".
-            Find out more about ISO 8601: https://en.wikipedia.org/wiki/ISO_8601). If .none is
-            passed in the default behaviour for json decoding will be used: property names will
-            stay unchanged and Date's default encoding will be used.
-        - decoder: Pass in a JSONDecoder to re-use it.
-             NOTE: depending on the preset passed in the, decoder's settings will get changed.
-
-     - Returns: A `Decoded` instance.
-     */
     func decoded<T>(
         _ presets: Presets = .server,
         decoder: JSONDecoder = JSONDecoder()
     ) throws -> T where T: Decodable {
         switch presets {
-        case .none:
+        case .default:
             return try DecodingFluentHelper(
                 decoder: decoder,
                 data: self,
@@ -166,7 +149,7 @@ public extension Encodable {
         encoder: JSONEncoder = JSONEncoder()
     ) throws -> Data {
         switch presets {
-        case .none:
+        case .default:
             return try Data.EncodingFluentHelper(
                 encoder: encoder,
                 encodable: self,
@@ -203,31 +186,10 @@ public extension String {
         data().json(using: decoder)
     }
 
-    /**
-     Decodes a JSON string to the infered "Decoded".
-
-     An optional "preset" parameter can be passed in for controlling the decoding behaviour
-
-     - Parameters:
-        - presets: .server or .none: If no perset is passed into decoded() the .server preset
-            will be used. Property names get decoded from snake_case to camelCase and date-stings
-            are assumed to conform toISO 8601. Example date string: "2050-01-01T00:00:01".
-            Find out more about ISO 8601: https://en.wikipedia.org/wiki/ISO_8601). If .none is
-            passed in the default behaviour for json decoding will be used: property names will
-            stay unchanged and Date's default encoding will be used.
-        - decoder: Pass in a JSONDecoder to re-use it.
-             NOTE: depending on the preset passed in the, decoder's settings will get changed.
-
-     - Returns: A `Decoded` instance.
-     */
-    func decoded<Decoded>(
+    func decoded<T>(
         _ presets: Data.Presets = .server,
         decoder: JSONDecoder = JSONDecoder()
-    ) throws -> Decoded where Decoded: Decodable {
+    ) throws -> T where T: Decodable {
         try Data(utf8).decoded(presets, decoder: decoder)
     }
 }
-
-
-// "asData()" does the reverse , it encodes an Encodable type using the
-// has an equivalent optional preset:

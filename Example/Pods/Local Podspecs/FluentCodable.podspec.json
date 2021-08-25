@@ -1,8 +1,9 @@
 {
   "name": "FluentCodable",
+  "swift_versions": "5.0",
   "version": "0.1.0",
-  "summary": "A short description of FluentCodable.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A fluent interface for Codable",
+  "description": "A fluent interface for Codable.",
   "homepage": "https://github.com/anconaesselmann/FluentCodable",
   "license": {
     "type": "MIT",
@@ -16,7 +17,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "FluentCodable/Classes/**/*"
+  "source_files": "FluentCodable/Classes/**/*",
+  "swift_version": "5.0"
 }

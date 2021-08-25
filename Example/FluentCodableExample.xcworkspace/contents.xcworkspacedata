@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FluentCodable.xcodeproj">
+      location = "group:Example.playground">
+   </FileRef>
+   <FileRef
+      location = "group:FluentCodableExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

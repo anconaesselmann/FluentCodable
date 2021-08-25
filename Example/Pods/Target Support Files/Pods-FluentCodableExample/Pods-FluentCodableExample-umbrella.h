@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FluentCodable_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FluentCodable_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_FluentCodableExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FluentCodableExampleVersionString[];
 
